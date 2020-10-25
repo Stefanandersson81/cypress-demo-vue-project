@@ -2,8 +2,8 @@ const users = [
 	{
 		id: 1,
 		created: new Date('2020-01-01T12:00:00Z'),
-		username: 'tester01',
-		password: 'GteteqbQQgSr88SwNExUQv2ydb7xuf8c',
+		username: 'Admin',
+		password: 'Ultimate6',
 		token: null
 	},
 	{
