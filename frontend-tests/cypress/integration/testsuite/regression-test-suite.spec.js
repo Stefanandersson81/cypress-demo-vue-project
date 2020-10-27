@@ -14,4 +14,14 @@ describe('Regression test suite', function(){
         cy.get('.user > .btn').click()
         cy.contains('Login')
     })
+
+    it('creat new client', function(){
+        cy.visit('http://localhost:3000')
+    })
+    it('Edit a client', function(){
+        cy.visit('http://localhost:3000')
+    })
+    it('Remove a client', function(){
+        cy.visit('http://localhost:3000')
+    })
 })
